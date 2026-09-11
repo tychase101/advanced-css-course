@@ -1,0 +1,19 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for natours",
+  "license": "ISC",
+  "author": "Tyler",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "live-server": "npx live-server --open=index.html"
+  },
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
